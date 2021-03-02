@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body onload="firstQuestion()">
+
+    <h2 class="timer">Time = <span id="min"></span> : <span id="sec"></span></h2>
+    <!-- <button onclick="firstQuestion()">start quiz</button> -->
+    
+    <p id="q"></p>
+    <!-- <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul> -->
+    
+    <!-- value="ans" name="anss" -->
+    <div class="matter">
+    <input name="ans" type="radio" value="1" class="select"/><span id="opt1"></span>
+    <br>
+    <input name="ans" type="radio" value="2" class="select"/><span id="opt2"></span>
+    <br>
+    <input name="ans" type="radio" value="3" class="select"/><span  id="opt3"></span>
+    <br>
+    <input name="ans" type="radio" value="4" class="select"/><span id="opt4"></span>
+<br>
+<br>
+</div>
+<div class="btnn">
+    <button onclick="nextQuestion()" id="btn">Next</button>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background: url("./bg.png");
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    padding-top: 15px;
+}
+
+.inp{
+    text-align: center;
+    
+}
+
+.name{
+    text-align: center;
+    width: 20em;
+    height: 2em;
+}
+
+.btn{
+    text-align: center;
+    width: 10em;
+    height: 2em;
+    
+}
+
+.btndiv{
+    text-align: center;
+    padding-top: 3em;
+}

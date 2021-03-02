@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+}
+
+#q{
+    font-size: larger;
+    text-align: center;
+    padding-top: 100px;   
+}
+
+.matter {
+ padding-left: 520px;
+}
+
+.btnn{
+    padding-left: 520px;
+    
+
+}
+
+.timer{
+    padding-left: 50em;
+}
